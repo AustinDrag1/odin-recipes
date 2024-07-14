@@ -1,0 +1,70 @@
+*
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2
+{
+    text-align: Center;
+}
+
+div
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.vertical-buffer
+{
+    padding-top: 0.1px;
+}
+
+.content
+{
+    margin: 0 15% 0 15%;
+    padding: 0 10px 0 10px;
+    background-color: white;
+    min-height: 100%;
+}
+
+.background
+{
+    background-color: lightgray;
+    flex: 1;
+}
+
+.footer
+{
+    padding: 10px;
+    padding-top: 20px;
+    min-height: 75px;
+    background-color: rgb(125, 40, 200);
+    color: white;
+    font-size: 12pt;
+}
